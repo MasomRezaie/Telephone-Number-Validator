@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const check = document.getElementById('check-btn');
   const clear = document.getElementById('clear-btn');
   const results = document.getElementById('results-div');
-//   check.addEventListener('click', () => {
+  check.addEventListener('click', () => {
 //     const regex = /^(1\s?)?(\(\d{3}\)|\d{3})([\s-]?)\d{3}([\s-]?)\d{4}$/;
 //     if (!Input.value) {
 //       alert('Please provide a phone number');
