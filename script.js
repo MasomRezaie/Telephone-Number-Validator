@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       results.innerText = `Invalid US number: ${Input.value}`;
     }
-//   });
-//   clear.addEventListener('click', () => {
-//     results.textContent = '';
-//     Input.value = '';
-//   });
-// });
+  });
+  clear.addEventListener('click', () => {
+    results.textContent = '';
+    Input.value = '';
+  });
+});
