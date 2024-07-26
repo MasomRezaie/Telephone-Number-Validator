@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
   check.addEventListener('click', () => {
     const regex = /^(1\s?)?(\(\d{3}\)|\d{3})([\s-]?)\d{3}([\s-]?)\d{4}$/;
     if (!Input.value) {
-//       alert('Please provide a phone number');
-//     } else if (regex.test(Input.value)) {
-//       results.innerText = `Valid US number: ${Input.value}`;
-//     } else {
-//       results.innerText = `Invalid US number: ${Input.value}`;
-//     }
+      alert('Please provide a phone number');
+    } else if (regex.test(Input.value)) {
+      results.innerText = `Valid US number: ${Input.value}`;
+    } else {
+      results.innerText = `Invalid US number: ${Input.value}`;
+    }
 //   });
 //   clear.addEventListener('click', () => {
 //     results.textContent = '';
