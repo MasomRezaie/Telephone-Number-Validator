@@ -5,15 +5,15 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: linear-gradient(90deg, #0700b8 0%, #0f8 100%);
-  color: #433ec2;
+  background-image: url(./heres-a-handy-checklist-of-what-to-do-when-you-change-your-phone-number-main.jpg);
+  color: #070606;
 }
 
 .container {
   text-align: center;
   width: 90%;
   max-width: 320px;
-  background-color: #97afdc;
+  background-color: #03fd88;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -26,15 +26,15 @@ input[type="text"] {
   margin-bottom: 10px;
   margin-top: 10px;
   border-radius: 10px;
-  border: 2px solid lightblue;
+  border: 2px solid rgb(254, 173, 246);
 }
 
 button {
   padding: 10px 25px;
   margin: 10px 5px;
   cursor: pointer;
-  color: white;
-  background-color: #433ec2;
+  color: rgb(10, 10, 10);
+  background-color: #fe9df6;
   border: none;
   border-radius: 10px;
 }
@@ -42,7 +42,7 @@ button {
 #results-div {
   margin-top: 20px;
   padding: 10px;
-  border: 1px solid lightblue;
+  border: 1px solid rgb(245, 179, 255);
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
